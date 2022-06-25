@@ -70,6 +70,16 @@ const Home = () => {
             }
             src={"/"}
           ></Project>
+
+          <Project
+            img={"/animationThumbnail.png"}
+            title={"Tailwind Animation Helper"}
+            description={
+              "This was an app to help me create tailwind animations easier, i often find myself having to dig through documentation to get the correct format to put my desired animation in, this app allows me to skip that process."
+            }
+            src={"https://animation-gen.vercel.app/"}
+            github={"https://github.com/Gusud/animation-gen"}
+          ></Project>
         </div>
       </div>
     </div>
