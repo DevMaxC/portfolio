@@ -12,8 +12,14 @@ type Props = {
 
 function project({ img, title, description, src, github }: Props) {
   return (
-    <div className="col-span-3 lg:col-span-1">
-      <Image src={img} width={1280} height={800} className="h-full" />
+    <div className="col-span-3  lg:col-span-1">
+      <Image
+        src={img}
+        width={1280}
+        height={800}
+        objectFit="cover"
+        className="h-full"
+      />
       <div className="bg-gradient-to-tr from-orange-400 to-red-400 p-5">
         <h1 className="text-2xl">{title}</h1>
         <h2 className="text-xl">{description}</h2>

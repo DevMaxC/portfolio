@@ -14,7 +14,7 @@ const Home = () => {
         <title>Max Church</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Max Church - Front end Develloper" />
+        <meta name="description" content="Max Church - Full Stack Developer" />
       </Head>
 
       <div className="min-w-screen min-h-screen">
@@ -43,7 +43,16 @@ const Home = () => {
         <h1 className="bg-orange-100 p-10 text-center text-4xl font-semibold text-orange-400">
           Projects
         </h1>
-        <div className="grid grid-cols-3 gap-8 overflow-hidden bg-orange-100 px-20 pb-10 text-white backdrop-blur-2xl">
+        <div className="space grid grid-cols-3 gap-8 overflow-hidden bg-orange-100 px-20 pb-10 text-white backdrop-blur-2xl">
+          <Project
+            img={"/techhired.png"}
+            title={"TechHired.io"}
+            description={
+              "A webapp using TS, Prisma, Next, Tailwind, React, PlanetScale (MySQL) with a python script fetching all job information. Helped me to learn full stack development."
+            }
+            src={"https://TechHired.io"}
+          ></Project>
+
           <Project
             img={"/todosThumbnail.png"}
             title={"Todos App"}
@@ -51,7 +60,7 @@ const Home = () => {
               "This todos app shows my ability to use Basic Tailwind, TypeScript, React and A small amount of NextJS"
             }
             src={"https://todos-app-phi.vercel.app/"}
-            github={"https://github.com/Gusud/todos-app"}
+            github={"https://github.com/DevMaxC/todos-app"}
           ></Project>
 
           <Project
@@ -61,7 +70,7 @@ const Home = () => {
               "My goal with this project was to create a web app which was styled similarly to the calculator app on your phone. Tailwind was very useful for this, allowing me to prototype ideas quickly without having to reference a css file. "
             }
             src={"https://calculator-two-amber.vercel.app/"}
-            github={"https://github.com/Gusud/calculator"}
+            github={"https://github.com/DevMaxC/calculator"}
           ></Project>
 
           <Project
@@ -80,7 +89,7 @@ const Home = () => {
               "This was an app to help me create tailwind animations easier, i often find myself having to dig through documentation to get the correct format to put my desired animation in, this app allows me to skip that process."
             }
             src={"https://animation-gen.vercel.app/"}
-            github={"https://github.com/Gusud/animation-gen"}
+            github={"https://github.com/DevMaxC/animation-gen"}
           ></Project>
 
           <Project
@@ -90,7 +99,7 @@ const Home = () => {
               "This very site! This has been a way to learn about basic react usage with tailwind. Aswell as components, some typescript mixed with javascript and passing parameters through components."
             }
             src={"/"}
-            github={"https://github.com/Gusud/portfolio"}
+            github={"https://github.com/DevMaxC/portfolio"}
           ></Project>
         </div>
       </div>
